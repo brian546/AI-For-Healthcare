@@ -37,8 +37,6 @@ pip install numpy pandas matplotlib shap scikit-learn
 ## Analysis of Code Results
 The primary output in the notebook is a SHAP summary plot (dot type) for the top 10 features based on validation data (`valid_X`). 
 
-<img width="380" alt="SHAP" src="https://github.com/brian546/AI-For-Healthcare/blob/main/direction_shap_value_nn.png">
-
 ### Key Insights from SHAP Plot:
 - **Feature Importance**: Features are ordered vertically by their mean absolute SHAP value (highest impact at the top). The top features have the strongest influence on model predictions.
 - **SHAP Value Distribution**:
@@ -50,6 +48,8 @@ The primary output in the notebook is a SHAP summary plot (dot type) for the top
   - Clusters of red/blue dots highlight non-linear relationships: For some features, high values predominantly push towards one class.
 
 This plot aids in model interpretability, helping identify key medical indicators for the health condition. For domain-specific insights, map anonymous features (e.g., `feature_0` to `feature_69`) to real medical terms.
+
+<img width="380" alt="SHAP" src="https://github.com/brian546/AI-For-Healthcare/blob/main/direction_shap_value_nn.png">
 
 ## Project Structure
 
