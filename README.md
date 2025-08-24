@@ -36,6 +36,7 @@ pip install numpy pandas matplotlib shap scikit-learn
 
 ## Analysis of Code Results
 The primary output in the notebook is a SHAP summary plot (dot type) for the top 10 features based on validation data (`valid_X`). 
+
 <img width="380" alt="SHAP" src="https://github.com/brian546/AI-For-Healthcare/blob/main/direction_shap_value_nn.png">
 
 ### Key Insights from SHAP Plot:
