@@ -19,8 +19,7 @@ The notebook uses various Python libraries for data processing, model training, 
 - `pandas`
 - `matplotlib`
 - `shap` (for model interpretability)
-- `sklearn` or similar for model training (inferred from context)
-- Other libraries like `tqdm`, `ecdsa`, etc., may be available in the environment.
+- `sklearn` 
 
 Install dependencies using:
 ```
