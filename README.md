@@ -36,6 +36,7 @@ pip install numpy pandas matplotlib shap scikit-learn
 
 ## Analysis of Code Results
 The primary output in the notebook is a SHAP summary plot (dot type) for the top 10 features based on validation data (`valid_X`). 
+<img width="380" alt="SHAP" src="https://user-images.githubusercontent.com/43593664/129532868-00b00cbb-b37a-4e04-a8fc-6d42068ea889.png">
 
 ### Key Insights from SHAP Plot:
 - **Feature Importance**: Features are ordered vertically by their mean absolute SHAP value (highest impact at the top). The top features have the strongest influence on model predictions.
