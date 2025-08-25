@@ -50,8 +50,3 @@ The primary output in the notebook is a SHAP summary plot (dot type) for the top
 This plot aids in model interpretability, helping identify key medical indicators for the health condition. For domain-specific insights, map anonymous features (e.g., `feature_0` to `feature_69`) to real medical terms.
 
 <img width="380" alt="SHAP" src="https://github.com/brian546/AI-For-Healthcare/blob/main/direction_shap_value_nn.png">
-
-## Project Structure
-
-- `code.ipynb`: Jupyter notebook with model development, training, and SHAP analysis.
-- (Optional) Data files: Assume datasets are loaded within the notebook (e.g., via CSV or built-in loaders).
